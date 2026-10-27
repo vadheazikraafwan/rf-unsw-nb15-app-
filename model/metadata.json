@@ -1,0 +1,396 @@
+{
+  "dataset": "UNSW-NB15 (Kaggle mrwellsdavid/unsw-nb15)",
+  "features": [
+    "proto",
+    "service",
+    "state",
+    "dur",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sttl",
+    "dttl",
+    "sload",
+    "dload",
+    "sloss",
+    "dloss",
+    "sinpkt",
+    "dinpkt",
+    "sjit",
+    "djit",
+    "swin",
+    "stcpb",
+    "dtcpb",
+    "dwin",
+    "tcprtt",
+    "synack",
+    "ackdat",
+    "smean",
+    "dmean",
+    "trans_depth",
+    "response_body_len",
+    "ct_srv_src",
+    "ct_state_ttl",
+    "ct_dst_ltm",
+    "ct_src_dport_ltm",
+    "ct_dst_sport_ltm",
+    "ct_dst_src_ltm",
+    "is_ftp_login",
+    "ct_ftp_cmd",
+    "ct_flw_http_mthd",
+    "ct_src_ltm",
+    "ct_srv_dst",
+    "is_sm_ips_ports"
+  ],
+  "cat_cols": [
+    "proto",
+    "service",
+    "state"
+  ],
+  "num_cols": [
+    "dur",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sttl",
+    "dttl",
+    "sload",
+    "dload",
+    "sloss",
+    "dloss",
+    "sinpkt",
+    "dinpkt",
+    "sjit",
+    "djit",
+    "swin",
+    "stcpb",
+    "dtcpb",
+    "dwin",
+    "tcprtt",
+    "synack",
+    "ackdat",
+    "smean",
+    "dmean",
+    "trans_depth",
+    "response_body_len",
+    "ct_srv_src",
+    "ct_state_ttl",
+    "ct_dst_ltm",
+    "ct_src_dport_ltm",
+    "ct_dst_sport_ltm",
+    "ct_dst_src_ltm",
+    "is_ftp_login",
+    "ct_ftp_cmd",
+    "ct_flw_http_mthd",
+    "ct_src_ltm",
+    "ct_srv_dst",
+    "is_sm_ips_ports"
+  ],
+  "defaults": {
+    "dur": 0.014138,
+    "spkts": 6.0,
+    "dpkts": 2.0,
+    "sbytes": 534.0,
+    "dbytes": 178.0,
+    "rate": 2650.176667,
+    "sttl": 254.0,
+    "dttl": 29.0,
+    "sload": 577003.21875,
+    "dload": 2112.951416,
+    "sloss": 1.0,
+    "dloss": 0.0,
+    "sinpkt": 0.5579285,
+    "dinpkt": 0.01,
+    "sjit": 17.6239185,
+    "djit": 0.0,
+    "swin": 255.0,
+    "stcpb": 27888855.0,
+    "dtcpb": 28569748.5,
+    "dwin": 255.0,
+    "tcprtt": 0.000551,
+    "synack": 0.000441,
+    "ackdat": 8e-05,
+    "smean": 65.0,
+    "dmean": 44.0,
+    "trans_depth": 0.0,
+    "response_body_len": 0.0,
+    "ct_srv_src": 5.0,
+    "ct_state_ttl": 1.0,
+    "ct_dst_ltm": 2.0,
+    "ct_src_dport_ltm": 1.0,
+    "ct_dst_sport_ltm": 1.0,
+    "ct_dst_src_ltm": 3.0,
+    "is_ftp_login": 0.0,
+    "ct_ftp_cmd": 0.0,
+    "ct_flw_http_mthd": 0.0,
+    "ct_src_ltm": 3.0,
+    "ct_srv_dst": 5.0,
+    "is_sm_ips_ports": 0.0,
+    "proto": "tcp",
+    "service": "-",
+    "state": "FIN"
+  },
+  "num_ranges": {
+    "dur": [
+      0.0,
+      22.04829
+    ],
+    "spkts": [
+      1.0,
+      208.0
+    ],
+    "dpkts": [
+      0.0,
+      252.0
+    ],
+    "sbytes": [
+      24.0,
+      69970.04000000004
+    ],
+    "dbytes": [
+      0.0,
+      207751.0
+    ],
+    "rate": [
+      0.0,
+      1000000.003
+    ],
+    "sttl": [
+      0.0,
+      254.0
+    ],
+    "dttl": [
+      0.0,
+      252.0
+    ],
+    "sload": [
+      0.0,
+      800000000.0
+    ],
+    "dload": [
+      0.0,
+      14180870.830000004
+    ],
+    "sloss": [
+      0.0,
+      39.0
+    ],
+    "dloss": [
+      0.0,
+      97.69000000000233
+    ],
+    "sinpkt": [
+      0.0,
+      60000.06856
+    ],
+    "dinpkt": [
+      0.0,
+      556.0523542200011
+    ],
+    "sjit": [
+      0.0,
+      31014.052
+    ],
+    "djit": [
+      0.0,
+      9049.68500940002
+    ],
+    "swin": [
+      0.0,
+      255.0
+    ],
+    "stcpb": [
+      0.0,
+      4213679682.8400006
+    ],
+    "dtcpb": [
+      0.0,
+      4209814272.39
+    ],
+    "dwin": [
+      0.0,
+      255.0
+    ],
+    "tcprtt": [
+      0.0,
+      0.3575806500000002
+    ],
+    "synack": [
+      0.0,
+      0.1995035100000002
+    ],
+    "ackdat": [
+      0.0,
+      0.17393668000000018
+    ],
+    "smean": [
+      24.0,
+      1137.0
+    ],
+    "dmean": [
+      0.0,
+      1250.0
+    ],
+    "trans_depth": [
+      0.0,
+      1.0
+    ],
+    "response_body_len": [
+      0.0,
+      3924.0
+    ],
+    "ct_srv_src": [
+      1.0,
+      46.0
+    ],
+    "ct_state_ttl": [
+      0.0,
+      6.0
+    ],
+    "ct_dst_ltm": [
+      1.0,
+      43.0
+    ],
+    "ct_src_dport_ltm": [
+      1.0,
+      43.0
+    ],
+    "ct_dst_sport_ltm": [
+      1.0,
+      25.0
+    ],
+    "ct_dst_src_ltm": [
+      1.0,
+      46.0
+    ],
+    "is_ftp_login": [
+      0.0,
+      0.0
+    ],
+    "ct_ftp_cmd": [
+      0.0,
+      0.0
+    ],
+    "ct_flw_http_mthd": [
+      0.0,
+      1.0
+    ],
+    "ct_src_ltm": [
+      1.0,
+      43.0
+    ],
+    "ct_srv_dst": [
+      1.0,
+      46.0
+    ],
+    "is_sm_ips_ports": [
+      0.0,
+      1.0
+    ]
+  },
+  "cat_options": {
+    "proto": [
+      "any",
+      "arp",
+      "gre",
+      "ipv6",
+      "mobile",
+      "ospf",
+      "pim",
+      "rsvp",
+      "sctp",
+      "sep",
+      "sun-nd",
+      "swipe",
+      "tcp",
+      "udp",
+      "unas"
+    ],
+    "service": [
+      "-",
+      "dhcp",
+      "dns",
+      "ftp",
+      "ftp-data",
+      "http",
+      "irc",
+      "pop3",
+      "radius",
+      "smtp",
+      "snmp",
+      "ssh",
+      "ssl"
+    ],
+    "state": [
+      "ACC",
+      "CLO",
+      "CON",
+      "FIN",
+      "INT",
+      "REQ",
+      "RST"
+    ]
+  },
+  "top_numeric": [
+    "ct_dst_src_ltm",
+    "ct_state_ttl",
+    "smean",
+    "sbytes",
+    "sload",
+    "ct_srv_dst",
+    "rate",
+    "sttl"
+  ],
+  "importance_top15": {
+    "ct_dst_src_ltm": 0.08679986446003925,
+    "ct_state_ttl": 0.06050117658966484,
+    "smean": 0.0536140501271979,
+    "sbytes": 0.05258251170980787,
+    "state_INT": 0.051395937107769685,
+    "sload": 0.04981825248300037,
+    "ct_srv_dst": 0.04839288274834726,
+    "rate": 0.04831147841287571,
+    "sttl": 0.045738109350247705,
+    "ct_dst_sport_ltm": 0.04394140167008513,
+    "dbytes": 0.03443112738698204,
+    "dttl": 0.03062300463272479,
+    "dur": 0.028305106337901828,
+    "synack": 0.027453725233949386,
+    "dload": 0.02686235685746037
+  },
+  "classes_multiclass": [
+    "Analysis",
+    "Backdoor",
+    "DoS",
+    "Exploits",
+    "Fuzzers",
+    "Generic",
+    "Normal",
+    "Reconnaissance",
+    "Shellcode",
+    "Worms"
+  ],
+  "metrics_binary": {
+    "accuracy": 0.902025196616878,
+    "precision": 0.987823745129498,
+    "recall": 0.8667348187127643,
+    "f1": 0.9233261772884095,
+    "roc_auc": 0.9861644055389898,
+    "train_time_s": 13.436760425567627
+  },
+  "metrics_multiclass": {
+    "accuracy": 0.7606492491773174,
+    "macro_f1": 0.4717401432663024,
+    "weighted_f1": 0.7307322382523054,
+    "train_time_s": 15.70452356338501
+  },
+  "versions": {
+    "python": "3.13.16",
+    "scikit-learn": "1.6.1",
+    "numpy": "2.1.3"
+  }
+}
